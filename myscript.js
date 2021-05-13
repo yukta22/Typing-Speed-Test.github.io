@@ -40,6 +40,7 @@ const endPlay = ()=>{
 
     finalMsg += comapareWords(msg.innerText, totalStr);
     msg.innerText = finalMsg;
+    typeWords.value = null;
 }
 
 const comapareWords = (str1,str2) =>{
